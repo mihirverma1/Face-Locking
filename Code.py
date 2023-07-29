@@ -25,7 +25,7 @@ def countdown(p,q):
 
 video_capture = cv2.VideoCapture(0)
 
-img1_image = face_recognition.load_image_file("/root/Desktop/Project/Face-locking/faces/mihir.jpg")
+img1_image = face_recognition.load_image_file("<file path from where image is to be fetched>")
 img1_face_encoding = face_recognition.face_encodings(img1_image)[0]
 
 known_face_encodings = [
